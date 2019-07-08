@@ -144,6 +144,15 @@ h3 {
 
 #footer {
   text-align: center;
+  padding: 5%;
+}
+
+#footer span {
+  margin: 10px;
+}
+
+#footer p {
+  font-size: 0.8rem;
 }
 
 /* media queries */
