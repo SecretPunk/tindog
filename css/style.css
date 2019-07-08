@@ -46,6 +46,9 @@ h3 {
   width: 60%;
   margin-left: 15%;
   transform: rotate(25deg);
+  position: relative;
+  top: 80px;
+  left: 20px;
 }
 
 .btn {
@@ -60,6 +63,7 @@ h3 {
 
 #features {
   text-align: center;
+  background-color: #fff;
 }
 
 #features span {
