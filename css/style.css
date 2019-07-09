@@ -17,6 +17,17 @@ h1, h2, h3 {
   font-size: 1.5rem;
 }
 
+/* all sections */
+
+.white {
+  background-color: #fff;
+}
+
+.colored {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
 /* navigation bar */
 
 .navbar-brand {
@@ -58,14 +69,9 @@ h1, h2, h3 {
 
 #title {
   text-align: left;
-  background-color: #ff4c68;
 }
 
 /* features */
-
-#features {
-  background-color: #fff;
-}
 
 #features span {
   color: #ef8172;
@@ -89,7 +95,6 @@ h1, h2, h3 {
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 #testimonials img {
@@ -127,14 +132,12 @@ h1, h2, h3 {
 /* call to action */
 
 #cta {
-  background-color: #ff4c68;
   padding: 8% 18%;
 }
 
 .cta-text {
   font-size: 3rem;
   font-weight: 900;
-  color: #fff;
 }
 
 /* footer */
