@@ -1,25 +1,19 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  color: #fff;
-}
-
-h2 {
+h1, h2, h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+}
+
+.large-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+.small-heading {
   font-size: 1.5rem;
 }
 
@@ -36,6 +30,13 @@ h3 {
 }
 
 /* banner */
+
+.major-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
 
 .container-fluid {
   padding: 5% 15% 0 15%;
@@ -56,13 +57,13 @@ h3 {
 }
 
 #title {
+  text-align: left;
   background-color: #ff4c68;
 }
 
 /* features */
 
 #features {
-  text-align: center;
   background-color: #fff;
 }
 
@@ -87,7 +88,6 @@ h3 {
 /* testimonials */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -106,7 +106,6 @@ h3 {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -119,7 +118,6 @@ h3 {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 #pricing div[class^='col'] {
@@ -129,7 +127,6 @@ h3 {
 /* call to action */
 
 #cta {
-  text-align: center;
   background-color: #ff4c68;
   padding: 8% 18%;
 }
@@ -143,7 +140,6 @@ h3 {
 /* footer */
 
 #footer {
-  text-align: center;
   padding: 5%;
 }
 
